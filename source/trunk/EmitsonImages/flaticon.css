@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-add133:before {
+	content: "\e000";
+}
+.flaticon-leftarrow:before {
+	content: "\e001";
+}
+.flaticon-list31:before {
+	content: "\e002";
+}
+.flaticon-next10:before {
+	content: "\e003";
+}
+.flaticon-next17:before {
+	content: "\e004";
+}
+.flaticon-on:before {
+	content: "\e005";
+}
+.flaticon-play43:before {
+	content: "\e006";
+}
+.flaticon-previous12:before {
+	content: "\e007";
+}
+.flaticon-rewind24:before {
+	content: "\e008";
+}
+.flaticon-round56:before {
+	content: "\e009";
+}
+.flaticon-round60:before {
+	content: "\e00a";
+}
+.flaticon-stand1:before {
+	content: "\e00b";
+}
+.flaticon-stop8:before {
+	content: "\e00c";
+}
+.flaticon-up22:before {
+	content: "\e00d";
+}

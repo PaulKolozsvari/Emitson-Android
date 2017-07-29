@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="binarychef.emitson.mobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/emitson_logo_note"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service 
+            android:name="binarychef.emitson.mobile.utilities.EmitsonService"
+            android:exported="false"/>
+		<service 
+            android:name="binarychef.emitson.mobile.utilities.EmitsonStatusService"
+            android:exported="false"/>
+        <receiver android:name="binarychef.emitson.mobile.utilities.EmitsonResponseReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="binarychef.emitson.mobile.SyncBroadcast"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity 
+            android:name="binarychef.emitson.mobile.SettingsActivity"
+            android:label="@string/app_name"/>
+        <activity 
+            android:name="binarychef.emitson.mobile.MainActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="binarychef.emitson.mobile.PlayerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

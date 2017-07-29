@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView
+        android:id="@+id/text_web_service_base_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal|italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/web_service_base_url" />
+    <EditText
+        android:id="@+id/edit_text_web_service_base_url"
+        android:inputType="textUri"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#00000000" 
+		android:cacheColorHint="#00000000" />
+    
+	<TextView
+        android:id="@+id/text_connection_timeout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal|italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/connection_timeout" />
+    <EditText
+        android:id="@+id/edit_text_connection_timeout"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#00000000" 
+		android:cacheColorHint="#00000000" />
+    
+    <TextView
+        android:id="@+id/text_socket_timeout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal|italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/socket_timeout" />
+    <EditText
+        android:id="@+id/edit_text_socket_timeout"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#00000000" 
+		android:cacheColorHint="#00000000" />
+    
+    <TextView
+        android:id="@+id/text_volume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal|italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/volume" />
+    <EditText
+        android:id="@+id/edit_text_volume"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#00000000" 
+		android:cacheColorHint="#00000000" />
+</LinearLayout>

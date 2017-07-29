@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#eaeaea</color>
+    <color name="titlebackgroundcolor">#000000</color>
+    <color name="titlecolor">#666666</color>
+    <color name="progressStart">#333333</color>
+	<color name="progressCenter">#000000</color>
+	<color name="progressEnd">#333333</color>
+</resources>

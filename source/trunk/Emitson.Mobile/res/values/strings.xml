@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eMitSOn</string>
+    <string name="action_settings">Settings</string>
+	<string name="image_item">Image Item</string>
+	<string name="item_name">Item Name</string>
+	<string name="play">Play</string>
+	<string name="stop">Stop</string>
+	<string name="pause">Pause</string>
+	<string name="next">Next</string>
+	<string name="previous">Previous</string>
+	<string name="forward">Forward</string>
+	<string name="rewind">Rewind</string>
+	<string name="volume_up">Volume Up</string>
+	<string name="volume_down">Volume Down</string>
+	<string name="volume">Volume</string>
+	<string name="web_service_base_url">Web Service Base URL</string>
+	<string name="connection_timeout">Connection Timeout</string>
+	<string name="socket_timeout">Socket Timeout</string>
+	<string name="save">Save</string>
+	<string name="settings">Settings</string>
+</resources>

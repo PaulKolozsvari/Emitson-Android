@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/emitson_background" >
+	<LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/emitson_background" >
+		<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        	<TextView 
+        	    android:id="@+id/text_application_name"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="fill_parent"
+        	    android:text="@string/app_name"
+        	    android:textColor="@color/titlebackgroundcolor"
+        	    android:textSize="50sp"
+        	    android:textStyle="bold|italic"
+        	    android:gravity="center"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginRight="20dp" />
+        	<ImageView
+	            android:id="@+id/image_logo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="100dp"
+	            android:contentDescription="@string/app_name"
+	            android:scaleType="centerInside"
+	            android:src="@drawable/emitson_logo_note" />
+		</LinearLayout>
+		<ScrollView
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+			<ViewStub
+	            android:id="@+id/content_stub"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inflatedId="@+id/content" />
+		</ScrollView>
+    </LinearLayout>
+</RelativeLayout>
